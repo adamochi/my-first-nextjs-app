@@ -1,0 +1,23 @@
+Framework vs library
+
+a framework has rules and you should follow the structure etc. Do things in a specific way
+you put your code, and a frame work calls your code without 
+any configuration.
+A library is up to you. you can call a library anywhere for
+whatever you want
+
+React nextjs knows that if you create a route called banana
+inside the pages folder, to make that a route.
+----------------------------------
+Styles JSX:
+<style jsx>{`
+        a {
+          background-color: tomato;
+        }
+      `}</style>
+----------------------------------
+import styles from "./Navbar.module.css";
+className={styles.something}
+----------------------------------
+Global Styles:
+app component / app page

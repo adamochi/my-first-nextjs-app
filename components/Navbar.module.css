@@ -1,0 +1,12 @@
+.nav {
+  background-color: aliceblue;
+}
+.nav a {
+  padding: 10px;
+}
+.active {
+  color: palevioletred;
+}
+.inactive {
+  color: pink;
+}
