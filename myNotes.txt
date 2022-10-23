@@ -21,3 +21,7 @@ className={styles.something}
 ----------------------------------
 Global Styles:
 app component / app page
+----------------------------------
+_app.js
+needs to be named like this
+----------------------------------

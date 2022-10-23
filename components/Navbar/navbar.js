@@ -23,6 +23,24 @@ const Navbar = () => {
           banana
         </a>
       </Link>
+      <Link href="/movies">
+        <a
+          className={
+            router.pathname === "/movies" ? styles.active : styles.inactive
+          }
+        >
+          movies
+        </a>
+      </Link>
+      <Link href="/movies/all">
+        <a
+          className={
+            router.pathname === "/movies/all" ? styles.active : styles.inactive
+          }
+        >
+          ALL
+        </a>
+      </Link>
       <style jsx>{`
         something {
           background-color: tomato;
